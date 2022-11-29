@@ -17,7 +17,7 @@ export const HooksUseState = () => {
         console.log(a)
     }
     const reset = () => {
-        setA(1);
+        setA(0);
     }
     return (
         <div className={'example'}>
